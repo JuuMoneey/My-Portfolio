@@ -3,3 +3,4 @@ export default function AboutMe(){
         <div className="page" id="about">About Me</div>
     );
 }
+
