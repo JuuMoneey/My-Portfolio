@@ -1,0 +1,22 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contactPages{
+    border: 3px solid salmon;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    
+}
+
+.list{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

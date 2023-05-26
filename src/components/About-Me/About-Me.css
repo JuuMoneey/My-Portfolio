@@ -1,0 +1,17 @@
+.aboutMe{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#me{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px solid salmon;
+    text-align: center;
+    width: 70%;
+    height: 90%;
+}

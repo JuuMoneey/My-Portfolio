@@ -1,0 +1,84 @@
+.navBar{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    overflow: hidden;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    box-shadow: 0 5px 20px -15px black;
+    backdrop-filter: blur(10px); 
+    margin-bottom: 20px;
+    height: 90px;
+}
+
+.navBar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.navBarLi{
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.navLogo{
+    margin-left: 40px;
+}
+
+.navBarText{
+    animation: slide-in .5s forwards;
+    -webkit-animation: slide-in .5s forwards;
+    position: absolute;   
+    right: 0px;   
+}
+
+.resume{
+    color: inherit;
+    text-decoration: none;
+}
+  
+.resume:hover{
+    text-decoration: underline;
+}
+
+.logo{
+    max-width: 75px;
+}
+
+.navHamburger{
+    margin-right: 40px;
+    cursor: pointer;
+    font-size: 35px;
+}
+
+.hamburgerText{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    font-size: 35px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    background-color: rgba(34, 34, 34, .9);
+    width: 100vw;
+    height: 100vh;
+}
+
+.navHamburger svg, .navLogo{
+    z-index: 100;
+}
+
+.navBar .navBarLi:hover{
+    color: #cccccc;
+}
